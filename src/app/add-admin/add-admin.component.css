@@ -1,0 +1,119 @@
+.form-container{
+    display: flex;
+    justify-content: center;
+    width: 30%;
+    margin: auto;
+    margin-top: 1rem;
+    border: 2px solid black;
+    border-radius: 30px;
+    padding-bottom: 1rem;
+    padding-top: 1rem;
+}
+.admintext{
+    text-align: center;
+}
+.form{
+   
+}
+.containerfield{
+    margin-bottom:1rem;
+    padding-left: 2.2rem;
+}
+
+.inputfield{
+    width: 16rem;
+    height: 1.8rem;
+    margin: 5px;
+    border: 1px solid black;
+    border-radius: 5px;
+}
+.admintext{
+    color:black;
+    
+}
+.fieldtext{
+    margin:0px;
+    color:#00699c;
+    padding-left: 7px;
+}
+.submitbtn{
+    position: relative;
+    left: 5rem;
+    border:2px solid black;
+    font-size: 1.2rem;
+    padding: .5rem 3rem;
+  color: white;
+    background-color:#00699c ;
+}
+.submitbtn:hover{
+   
+    cursor: pointer;
+    border:0px;
+}
+  .fieldtext{
+    font-size: 1.2rem;
+  }
+
+  table {
+    width: 95%;
+    margin:auto;
+  
+    border-collapse: collapse;
+   
+  }
+  table, td, th {
+    border: 1px solid;
+  }
+  th{
+    font-size: 1.5rem;
+    border: 1px solid black;
+    padding:12px ;
+  
+    
+  }
+  tr:nth-child(even){background-color: #f2f2f2;}
+  
+  td {
+    padding:12px;
+    font-size: 1.4rem;
+  }
+  .tablenamecontainer{
+    width: 95%;
+    margin: auto;
+    display:flex;
+    justify-content: space-between;
+ 
+    margin-top: 1rem;
+    
+  }
+  .addbtn{
+   
+  
+  max-height: 3rem;
+    border-radius: 2px solid black;
+    position: relative;
+    top:1.4rem
+
+  }
+  .addbtn:hover{
+  
+    cursor: pointer;
+    border:0px;
+}
+.btnedit{
+  background-color:white;
+  padding:.5rem 2rem;
+  position: relative;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+}
+.btnedit:hover{
+  cursor: pointer;
+}
+
+.error-message{
+    display: block;
+    color:red;
+    padding-left: 10px;
+}

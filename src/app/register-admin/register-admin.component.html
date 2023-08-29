@@ -1,0 +1,23 @@
+
+<app-nav-bar></app-nav-bar>
+
+<div class="tablenamecontainer">
+  <h1 class="headertext">List of all admin users</h1>
+</div>
+<table class="tables">
+  <tr>
+    <th>FirstName</th>
+    <th>SecondName</th>
+    <th>Email</th>
+    <th>Status</th>
+    <th>Edit</th>
+  </tr>
+  <tr *ngFor="let product of admins; let i=index">
+    <td>{{product.firstName}}</td>
+    <td>{{product.lastName}}</td>
+    <td>{{product.email}}</td>
+    <td>{{product.enabled}}</td>
+    <td><button class="btnedit" (click)='handlechangestatus(i)'>toggle Status</button></td>
+  </tr>
+</table> 
+

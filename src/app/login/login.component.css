@@ -1,0 +1,61 @@
+.form-container{
+    width:100%;
+    display: flex;
+    margin:auto;
+    justify-content:center;
+    margin-top: 9rem;
+    
+}
+.formitself{
+    padding: 4rem;
+    background-color: whitesmoke;
+    border: 1px solid rgb(175, 173, 173);
+}
+.emailtext{
+    font-size: 1.6rem;
+   
+    margin: 0px;
+}
+.passwordtext{
+    font-size: 1.6rem;
+    margin: 0px;
+}
+#email{
+    height: 1.8rem;
+    width: 17rem;
+}
+#Password{
+    height: 1.8rem;
+    width: 17rem;
+}
+.emaillogin{
+    margin-bottom: 2rem;
+}
+.passwordlogin{
+    margin-bottom: 2rem;
+}
+.submitbtn{
+   
+    position:relative;
+    left: 4rem;
+    font-size: 1.3rem;
+    outline: none;
+    border:0px;
+    background-color:#00699C;
+    padding:.4rem 2.2rem;
+    color:white;
+}
+.submitbtn:hover{
+    background-color: white;
+    color:black;
+    cursor: pointer;
+}
+.error-message{
+    display: block;
+    color:red;
+}
+
+.errorMessge
+{
+    color: red;
+}

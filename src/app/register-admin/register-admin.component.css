@@ -1,0 +1,115 @@
+.form-container{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+}
+.containerfield{
+    margin-bottom:1rem;
+    padding-left: 2.2rem;
+}
+.headertext{
+  text-align: center;
+  
+}
+.tables{
+  border:1px solid black ;
+
+  
+}
+.inputfield{
+    width: 16rem;
+    height: 1.8rem;
+    margin: 5px;
+}
+.admintext{
+    color:white;
+    
+}
+.fieldtext{
+    margin:0px;
+    color:#00699c;
+    padding-left: 7px;
+}
+.submitbtn{
+    position: relative;
+    left: 5rem;
+    border:2px solid black;
+    font-size: 1.4rem;
+    padding: .5rem 3rem;
+}
+.submitbtn:hover{
+   
+    cursor: pointer;
+    border:0px;
+}
+  .fieldtext{
+    font-size: 1.5rem;
+  }
+
+  table {
+    width: 95%;
+    margin:auto;
+  
+    border-collapse: collapse;
+   
+  }
+  table, td, th {
+   
+  }
+  th{
+    font-size: 1.2rem;
+   color: white;
+    padding:12px ;
+    background-color: rgb(46, 44, 44);
+  
+    
+  }
+  tr:nth-child(even){background-color: #f2f2f2;}
+  
+  td {
+    padding:12px;
+    font-size: 1.1rem;
+    text-align: center;
+    color: white;
+    background-color: white;
+    color: black;
+  }
+  .tablenamecontainer{
+    width: 95%;
+    margin: auto;
+    
+ 
+    margin-top: 1rem;
+    
+  }
+  .addbtn{
+   
+  
+  max-height: 3rem;
+   
+    position: relative;
+    top:1.4rem
+
+  }
+  .addbtn:hover{
+  
+    cursor: pointer;
+    border:0px;
+}
+.btnedit{
+  background-color:white;
+  padding:.5rem 2rem;
+  position: relative;
+  margin: auto;
+  justify-content: center;
+  display: flex;
+}
+.btnedit:hover{
+  cursor: pointer;
+}
+.errorMessge
+{
+  background-color: #f2f2f2;
+  padding: 2rem;
+  color: red;
+}

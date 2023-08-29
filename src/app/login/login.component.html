@@ -1,0 +1,22 @@
+<div class="form-container">
+   
+
+    <form  action="" class="formitself">
+      <div class="errorMessge">{{this.errorMessge}}</div>
+      <div class="emaillogin">
+        <h1 class="emailtext">Email</h1>
+        <input [(ngModel)]="email" id="email" type="email" name="email" placeholder="e.x: email@gmail.com">
+        <span *ngIf="formSubmitted && email==''" class="error-message">Email is required</span>
+      </div>
+      <div class="passwordlogin">
+        <h1 class="passwordtext">Password</h1>
+        <input [(ngModel)]="password" id="Password" type="password"  placeholder="Enter your password" name="password">
+        <span *ngIf="formSubmitted && password==''" class="error-message">password is required</span>
+      </div>
+      <button (click)="handleFormSubmit()" type="button" class="submitbtn"> Submit</button>
+      
+
+
+    </form>
+
+    </div>

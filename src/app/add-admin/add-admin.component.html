@@ -1,0 +1,32 @@
+<app-nav-bar></app-nav-bar>
+<h1 class="admintext">Enter new admin details!</h1>
+<div class="form-container" *ngIf="addadmin">
+    <form class="form">
+     
+        <div class="containerfield">
+            <h1 class="fieldtext" >Enter first name</h1>
+            <input id="firstname" [(ngModel)]="firstName"  class="inputfield" type="text" name="firstname" placeholder="enter the first name" >
+            <span *ngIf="formSubmitted && firstName==''" class="error-message">Firstname is required</span>
+          </div>
+          <div class="containerfield">
+            <h1 class="fieldtext">Enter last name</h1>
+            <input id="lastname" [(ngModel)]="lastName" class="inputfield"  type="text"  placeholder="Enter the last name" name="lastname">
+            <span *ngIf="formSubmitted && lastName==''" class="error-message">Lastname is required</span>
+          </div>
+          <div class="containerfield">
+            <h1 class="fieldtext">Enter email</h1>
+            <input id="mail" class="inputfield" [(ngModel)]="email" type="email"  placeholder="Enter email" name="email">
+            <span *ngIf="formSubmitted && email==''" class="error-message">Email is required</span>
+          </div>
+          <div class="containerfield">
+            <h1 class="fieldtext">Enter the password</h1>
+            <input id="Password" class="inputfield"  type="password" [(ngModel)]="password" placeholder="Enter the password" name="password">
+            <span *ngIf="formSubmitted && password==''" class="error-message">Password is required</span>
+          </div>
+      
+          <button  type="button" (click)='addadmintobackend()' class="submitbtn"> Submit</button>
+
+          <div class="error-message" *ngIf="errorMessge!=null;">{{this.errorMessge}}</div>
+
+    </form>
+</div>
